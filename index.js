@@ -4,8 +4,8 @@ const PORT = 3000;
 const express = require("express");
 const morgan = require("morgan");
 
-const cors = require("cors");
-server.use(cors());
+// const cors = require("cors");
+// server.use(cors());
 
 const server = express();
 const apiRouter = require("./api");
